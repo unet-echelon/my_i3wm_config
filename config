@@ -193,13 +193,13 @@ exec --no-startup-id nitrogen --restore &
 exec setxkbmap -layout us,ua winkeys grp:alt_shift_toggle
 exec i3status
 #i3lock
-bindsym $mod+Pause exec /home/oleg/i3lock-multimonitor/lock
+bindsym $mod+Pause exec ~/i3lock-multimonitor/lock
 #screenshots gui
 
-bindsym $mod+Print exec /home/oleg/.config/i3/screen.sh
+bindsym $mod+Print exec ~/.config/i3/screen.sh
 
 #loader
-bindsym $mod+Shift+b exec /home/oleg/.config/i3/loader.sh
+bindsym $mod+Shift+b exec ~/.config/i3/loader.sh
 #winbox
 bindsym $mod+Shift+w exec ~/work/winbox.sh
 #gaps
